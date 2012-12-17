@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tine 2.0 - Felamimail\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-12-17 15:22-0300\n"
-"Last-Translator: Cassiano Dal Pizzol <cassiano@dalpizzol@serpro.gov.br>\n"
+"PO-Revision-Date: 2012-12-17 15:14-0300\n"
+"Last-Translator: Rommel de Brito Cysne <rommel.cysne@serpro.gov.br>\n"
 "Language-Team: Tine 2.0 Translators <rommel.cysne@serpro.gov.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -357,6 +357,7 @@ msgstr "Não foi possível salvar script no servidor Sieve."
 #: js/TreeContextMenu.js:100
 #: js/TreeContextMenu.js:103
 #: js/TreeContextMenu.js:106
+#: Backend/Imap.php:196
 msgid "Folder"
 msgstr "Pasta"
 
@@ -1210,14 +1211,9 @@ msgid "Signature image size cannot exceed 16384 bytes."
 msgstr "O tamanho da imagem da assinatura não pode exceder 16384 bytes."
 
 #: Backend/Imap.php:
-#: 194
-msgid "cannot create folder"
-msgstr "Não foi possível criar a pasta"
-
-#: Backend/Imap.php:
-#: 194
-msgid "perhaps it already exists."
-msgstr "talvez ela já exista."
+#: 196
+msgid "already exists."
+msgstr "já existe."
 
 #: Backend/Cache/Imap/Folder.php:252
 msgid "Shared Folders"
